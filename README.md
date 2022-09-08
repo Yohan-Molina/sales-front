@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Instalación de dependencias
+
+Se instala framework bulma `npm install bulma` y se agrega en angular.json > "styles" `"node_modules/bulma/css/bulma.min.css"`
+Se instala framework NgRx `npm install @ngrx/store --save` - `npm install @ngrx/store-devtools --save` - `npm install @ngrx/effects --save`
